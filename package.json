@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "scss": "node-scss scss -o css"
+    "scss": "node-scss scss -o css",
+    "scss:watch": "npm run scss && css -w -o css"
 
   },
   "repository": {
