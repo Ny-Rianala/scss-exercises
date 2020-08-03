@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "scss": "node-scss scss -o css",
-    "scss:watch": "npm run scss && css -w -o css"
+    "scss:watch": "npm run scss && node-sass scss -w -o css"
 
   },
   "repository": {
